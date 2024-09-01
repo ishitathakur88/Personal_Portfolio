@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a href="/" class="logo">
+                <span class="highlighted">Hie! This is my</span> Personal Portfolio
+            </a>
+            <div class="nav-links">
+                <a href="#home" class="nav-item nav-item-active">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#services" class="nav-item">Projects</a>
+                <a href="#projects" class="nav-item">Accounts</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+            <div class="toggler">
+                <span class="line"></span><span class="line"></span><span class="line"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero container" id="home">
+        <div class="hero-info">
+            <h1 class="title">Ishita <span class="highlighted">Thakur</span></h1>
+            <p class="hero-description">Fourth-year B.E-CSE Student</p>
+            <a href="#services" class="btn hero-btn">Projects</a>
+        </div>
+        <div class="hero-img">
+            <img src="images/hero-img.png" alt="Ishita Thakur" width="400" height="400" />
+        </div>
+    </section>
+
+    <section class="about container" id="about">
+        <div class="about-img">
+            <img src="images/about-img.png" alt="About Me" width="400" height="400" />
+        </div>
+        <div class="about-info">
+            <h2 class="secondery-title">About Me</h2>
+            <p class="description">
+                I am a fourth-year B.E-CSE student with a strong foundation in programming and a passion for innovation.
+                I have hands-on
+                experience in web development through portfolio projects, utilizing skills in C, C++, Java, Python, and
+                JavaScript.
+                Proficient in frameworks like Node.js, React.js, and Bootstrap, I am well-equipped to contribute to
+                dynamic projects.
+            </p>
+            <p class="description">
+                In addition to my technical expertise, I am skilled in using tools like Git and Canva, and have
+                experience with
+                databases such as MongoDB and SQL. I also hold certifications in Database Management Systems by Infosys
+                and Full Stack
+                Development, further enhancing my capabilities.
+            </p>
+            <p class="description">
+                Aspiring for a career in technology, I am eager to leverage my skills to drive technological
+                advancements and make a
+                meaningful impact in the industry.
+            </p>
+            <a href="#" class="btn btn-secondery">More</a>
+        </div>
+    </section>
+
+    <div class="services container" id="services">
+        <div class="services-header">
+            <h2 class="secondery-title">Projects</h2>
+        </div>
+        <div class="grid services-grid">
+            <div class="grid-item services-item">
+                <i class="fa-solid fa-computer"></i>
+                <h3>Web Chat Application</h3>
+                <p class="description">
+                    A web chat application enables real-time text communication between users over the internet through
+                    a web browser,
+                    facilitating instant messaging and seamless interaction.
+                </p>
+            </div>
+            <div class="grid-item services-item">
+                <i class="fa-solid fa-meteor"></i>
+                <h3>Weather Forecasting App</h3>
+                <p class="description">
+                    Weather forecasting predicts atmospheric conditions, such as temperature, precipitation, and wind,
+                    to provide insights
+                    for upcoming days.
+                </p>
+            </div>
+            <div class="grid-item services-item">
+                <i class="fa-solid fa-pen-nib"></i>
+                <h3>E-commerce Website</h3>
+                <p class="description">
+                    An e-commerce website allows users to buy and sell products or services online, offering features
+                    like product listings,
+                    shopping carts, secure payment processing, and order tracking.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="projects container" id="projects">
+        <div class="projects-header">
+            <h2 class="secondery-title">Social Accounts</h2>
+            <div class="projects-tab">
+                <button class="projects-tab-btn projects-tab-btn-active" id="all">All</button>
+                <button class="projects-tab-btn" id="design"><a
+                        href="https://www.facebook.com/profile.php?id=100085580412506">Facebook</a></button>
+                <button class="projects-tab-btn" id="seo"><a
+                        href="https://www.instagram.com/im_icoishhh?igsh=cXlqeDEyN3Uza3o4">Instagram</a></button>
+                <button class="projects-tab-btn" id="ui-ux"><a
+                        href="https://github.com/ishitathakur88">Github</a></button>
+            </div>
+        </div>
+        <div class="grid projects-grid">
+            <div class="grid-item projects-item all design">
+                <img src="images/project-1.png" alt="Project 1" width="400" height="300" />
+            </div>
+            <div class="grid-item projects-item all design">
+                <img src="images/project-2.png" alt="Project 2" width="400" height="300" />
+            </div>
+            <div class="grid-item projects-item all seo">
+                <img src="images/project-3.png" alt="Project 3" width="400" height="300" />
+            </div>
+            <div class="grid-item projects-item all seo">
+                <img src="images/project-4.png" alt="Project 4" width="400" height="300" />
+            </div>
+            <div class="grid-item projects-item all ui-ux">
+                <img src="images/project-5.png" alt="Project 5" width="400" height="300" />
+            </div>
+            <div class="grid-item projects-item all ui-ux">
+                <img src="images/project-6.png" alt="Project 6" width="400" height="300" />
+            </div>
+        </div>
+    </section>
+
+    <section class="container contact" id="contact">
+        <div class="contact-info">
+            <h2 class="secondery-title">Contact</h2>
+            <div class="info-container">
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-info-data">
+                        <h3>Address</h3>
+                        <p>Mandi, Himachal Pradesh</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-info-data">
+                        <h3>Email</h3>
+                        <p>ishitathakur893@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+                    <div class="contact-info-data">
+                        <h3>Phone</h3>
+                        <p>8580725047</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Email" />
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <button class="btn submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; For more details contact on <a
+                href="https://www.linkedin.com/in/ishita-thakur-a207a9228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><u>Linkedin</u></a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
